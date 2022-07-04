@@ -1,0 +1,48 @@
+.App-header {
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+.headerTemplate1 {
+  width: 100%;
+
+  display: flex;
+  flex-flow: row nowrap;
+
+  justify-content: space-between;
+
+  box-sizing: border-box;
+}
+.headerTemplate1 img {
+  height: 30px;
+  margin: 10px 5%;
+}
+.headerTemplate1-pages ul {
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+
+  gap: 10px;
+  list-style-type: none;
+}
+.headerTemplate1-pages ul li {
+  height: 30px;
+}
+.headerTemplate1-pages ul li button {
+  padding: 0;
+  height: 30px;
+}
+.headerTemplate1-searchBar {
+  height: 30px;
+}
+.headerTemplate1-buttons {
+  display: flex;
+  margin: 10px 5%;
+  gap: 10px;
+}
